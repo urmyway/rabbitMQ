@@ -1,13 +1,13 @@
-package com.rabbitmq.demo;
+package com.rabbitmq.receiver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class ReceiverApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(ReceiverApplication.class, args);
     }
 
 }
